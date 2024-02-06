@@ -126,3 +126,10 @@ Outputs from the retrieval models, showcasing the effectiveness of different ret
 
 - **DPR Output**: [Train](https://huggingface.co/datasets/abdoelsayed/Open-ArabicaQA/resolve/main/retreiver_output/DPR/arabica-train.json?download=true) | [Validation](https://huggingface.co/datasets/abdoelsayed/Open-ArabicaQA/resolve/main/retreiver_output/DPR/arabica-dev.json?download=true) | [Test](https://huggingface.co/datasets/abdoelsayed/Open-ArabicaQA/resolve/main/retreiver_output/DPR/arabica-test.json?download=true)
 - **BM25 Output**: [Train](https://huggingface.co/datasets/abdoelsayed/Open-ArabicaQA/resolve/main/retreiver_output/BM25/arabica-train.json?download=true) | [Validation](https://huggingface.co/datasets/abdoelsayed/Open-ArabicaQA/blob/main/retreiver_output/BM25/arabica-dev.json) | [Test](https://huggingface.co/datasets/abdoelsayed/Open-ArabicaQA/resolve/main/retreiver_output/BM25/arabica-test.json?download=true)
+
+### Wikipedia data
+- **Data Structure**:
+```
+id	text	title
+```
+- **Wikipedia**: [TSV](https://huggingface.co/datasets/abdoelsayed/Open-ArabicaQA/resolve/main/wikipedia_split/wikiAr.tsv?download=true)
