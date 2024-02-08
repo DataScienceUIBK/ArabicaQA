@@ -66,7 +66,9 @@ Structured as JSON files, the MRC dataset includes `train.json`, `val.json`, and
 Available in both JSON and JSONL formats, this part of the dataset is annotated by humans for realistic QA scenarios.
 
 - **Data Structure**:
-```
+<details>
+  <summary>Click to maximize</summary>
+<pre><code>
 [
     {
         "question_id": "",
@@ -75,7 +77,8 @@ Available in both JSON and JSONL formats, this part of the dataset is annotated 
         "answer": ""
     }
 ]
-```
+</code></pre>
+</details>
 
 - **JSON Format**: [Train](https://huggingface.co/datasets/abdoelsayed/Open-ArabicaQA/resolve/main/human-annotated/train-open.json?download=true) | [Validation](https://huggingface.co/datasets/abdoelsayed/Open-ArabicaQA/resolve/main/human-annotated/val-open.json?download=true) | [Test](https://huggingface.co/datasets/abdoelsayed/Open-ArabicaQA/resolve/main/human-annotated/test-open.json?download=true)
 - **JSONL Format**: [Train](https://huggingface.co/datasets/abdoelsayed/Open-ArabicaQA/resolve/main/human-annotated/train-open.jsonl?download=true) | [Validation](https://huggingface.co/datasets/abdoelsayed/Open-ArabicaQA/resolve/main/human-annotated/val-open.jsonl?download=true) | [Test](https://huggingface.co/datasets/abdoelsayed/Open-ArabicaQA/resolve/main/human-annotated/test-open.jsonl?download=true)
@@ -85,7 +88,9 @@ Available in both JSON and JSONL formats, this part of the dataset is annotated 
 This section provides datasets for training retrieval models, crucial for efficient information extraction and context identification.
 
 - **Data Structure**:
-```
+<details>
+  <summary>Click to maximize</summary>
+<pre><code>
 [
     {
         "question": "...",
@@ -98,7 +103,8 @@ This section provides datasets for training retrieval models, crucial for effici
         "hard_negative_ctxs": ["..."]
     }
 ]
-```
+</code></pre>
+</details>
 
 
 - **Haystack Annotated**: [Train](https://huggingface.co/datasets/abdoelsayed/Open-ArabicaQA/resolve/main/retreiver/haystack/arabica-train.json?download=true) | [Validation](https://huggingface.co/datasets/abdoelsayed/Open-ArabicaQA/resolve/main/retreiver/haystack/arabica-dev.json?download=true) | [Test](https://huggingface.co/datasets/abdoelsayed/Open-ArabicaQA/resolve/main/retreiver/haystack/arabica-test.json?download=true)
@@ -110,7 +116,9 @@ This section provides datasets for training retrieval models, crucial for effici
 Outputs from the retrieval models, showcasing the effectiveness of different retrieval strategies (DPR, BM25) in context selection.
 
 - **Data Structure**:
-```
+<details>
+  <summary>Click to maximize</summary>
+<pre><code>
 [
     {
     "question": "...",
@@ -126,7 +134,8 @@ Outputs from the retrieval models, showcasing the effectiveness of different ret
      ]
     }
 ]
-```
+</code></pre>
+</details>
 
 - **DPR Output**: [Train](https://huggingface.co/datasets/abdoelsayed/Open-ArabicaQA/resolve/main/retreiver_output/DPR/arabica-train.json?download=true) | [Validation](https://huggingface.co/datasets/abdoelsayed/Open-ArabicaQA/resolve/main/retreiver_output/DPR/arabica-dev.json?download=true) | [Test](https://huggingface.co/datasets/abdoelsayed/Open-ArabicaQA/resolve/main/retreiver_output/DPR/arabica-test.json?download=true)
 - **BM25 Output**: [Train](https://huggingface.co/datasets/abdoelsayed/Open-ArabicaQA/resolve/main/retreiver_output/BM25/arabica-train.json?download=true) | [Validation](https://huggingface.co/datasets/abdoelsayed/Open-ArabicaQA/blob/main/retreiver_output/BM25/arabica-dev.json) | [Test](https://huggingface.co/datasets/abdoelsayed/Open-ArabicaQA/resolve/main/retreiver_output/BM25/arabica-test.json?download=true)
