@@ -29,7 +29,7 @@ Structured as JSON files, the MRC dataset includes `train.json`, `val.json`, and
 
 <details>
   <summary>Click to maximize</summary>
-<pre><code>
+-  <pre><code>
 {
   "data": [
     {
