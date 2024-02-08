@@ -26,7 +26,10 @@ ArabicaQA is divided into several segments to address different QA challenges:
 Structured as JSON files, the MRC dataset includes `train.json`, `val.json`, and `test.json` for training, validation, and testing phases, respectively, along with a metadata CSV file.
 
 - **Data Structure**:
-```json
+
+<details>
+  <summary>Click to maximize</summary>
+  ```json
 {
   "data": [
     {
@@ -52,6 +55,8 @@ Structured as JSON files, the MRC dataset includes `train.json`, `val.json`, and
   ]
 }
 ```
+</details>
+
 
 - **Training Set**: [Download](https://huggingface.co/datasets/abdoelsayed/ArabicaQA/resolve/main/MRC/train.json?download=true)
 - **Validation Set**: [Download](https://huggingface.co/datasets/abdoelsayed/ArabicaQA/resolve/main/MRC/val.json?download=true)
