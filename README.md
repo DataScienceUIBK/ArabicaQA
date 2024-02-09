@@ -166,7 +166,8 @@ Once downloaded, move the AraDPR index directory to `DPR/DPR_index` within your 
 ### Step 3: Wikipeda Data
 Next, download the TSV:
 
-Wiki data[TSV](https://huggingface.co/datasets/abdoelsayed/Open-ArabicaQA/resolve/main/wikipedia_split/wikiAr.tsv?download=true)
+[TSV](https://huggingface.co/datasets/abdoelsayed/Open-ArabicaQA/resolve/main/wikipedia_split/wikiAr.tsv?download=true)
+
 Once downloaded, move the wikiAr.tsv to `wiki` within your project structure:
 ### Step 4: Running Inference
 With the AraDPR model and index in place, you can run inference to answer questions. Edit the `inference.py` script to include your questions or use the example provided in the script.
