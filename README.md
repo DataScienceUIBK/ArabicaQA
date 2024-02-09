@@ -181,3 +181,6 @@ id	text	title
 - **Wikipedia**: [TSV](https://huggingface.co/datasets/abdoelsayed/Open-ArabicaQA/resolve/main/wikipedia_split/wikiAr.tsv?download=true)
 
 
+## Trainin AraDPR
+
+Will be avaiable soon
