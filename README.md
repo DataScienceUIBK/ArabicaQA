@@ -148,7 +148,7 @@ id	text	title
 - **Wikipedia**: [TSV](https://huggingface.co/datasets/abdoelsayed/Open-ArabicaQA/resolve/main/wikipedia_split/wikiAr.tsv?download=true)
 
 
-## Using ArabicaQA with AraDPR
+## Using AraDPR
 To use our AraDPR for question answering, follow the steps below:
 ### Step 1: Clone AraDPR Repository
 First, download the AraDPR model by cloning the repository:
