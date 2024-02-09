@@ -82,7 +82,7 @@ def main():
     #while True:
     question = "محمد حسني مبارك" #input('Enter a question:')
     final_result = inference.get_docs(question)
-    with open('final_result.json', mode='w', encoding='utf-8') as f:
+    with open('result.json', mode='w', encoding='utf-8') as f:
         json.dump(final_result, f , indent=4, ensure_ascii=False )
 
 if __name__ == '__main__':
