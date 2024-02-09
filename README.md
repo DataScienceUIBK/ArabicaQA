@@ -2,6 +2,39 @@
 
 ArabicaQA is a robust dataset designed to support and advance the development of Arabic Question Answering (QA) systems. This dataset encompasses a wide range of question types, including both Machine Reading Comprehension (MRC) and Open-Domain questions, catering to various aspects of QA research and application. The dataset is structured to facilitate training, validation, and testing of Arabic QA models.
 
+## Using AraDPR
+To use our AraDPR for question answering, follow the steps below:
+### Step 1: Clone AraDPR Repository
+First, download the AraDPR model by cloning the repository:
+```
+git clone https://huggingface.co/abdoelsayed/AraDPR
+```
+After cloning, move the AraDPR model directory to `DPR/Model` within your project structure:
+### Step 2: Clone AraDPR Index
+Next, download the DPR index required for running AraDPR:
+```
+git clone https://huggingface.co/abdoelsayed/AraDPR_index
+
+```
+Once downloaded, move the AraDPR index directory to `DPR/DPR_index` within your project structure:
+### Step 3: Wikipeda Data
+Next, download the TSV:
+
+[TSV](https://huggingface.co/datasets/abdoelsayed/Open-ArabicaQA/resolve/main/wikipedia_split/wikiAr.tsv?download=true)
+
+Once downloaded, move the wikiAr.tsv to `wiki` within your project structure:
+### Step 4: Running Inference
+With the AraDPR model and index in place, you can run inference to answer questions. Edit the `inference.py` script to include your questions or use the example provided in the script.
+
+To run the inference, execute:
+```
+python inference.py
+
+```
+### Step 5: Review Results
+The results of your inference will be saved in `result.json`. Open this file to review the answers provided by the AraDPR model to your questions.
+
+
 ## Dataset Overview
 
 ArabicaQA is divided into several segments to address different QA challenges:
@@ -148,34 +181,3 @@ id	text	title
 - **Wikipedia**: [TSV](https://huggingface.co/datasets/abdoelsayed/Open-ArabicaQA/resolve/main/wikipedia_split/wikiAr.tsv?download=true)
 
 
-## Using AraDPR
-To use our AraDPR for question answering, follow the steps below:
-### Step 1: Clone AraDPR Repository
-First, download the AraDPR model by cloning the repository:
-```
-git clone https://huggingface.co/abdoelsayed/AraDPR
-```
-After cloning, move the AraDPR model directory to `DPR/Model` within your project structure:
-### Step 2: Clone AraDPR Index
-Next, download the DPR index required for running AraDPR:
-```
-git clone https://huggingface.co/abdoelsayed/AraDPR_index
-
-```
-Once downloaded, move the AraDPR index directory to `DPR/DPR_index` within your project structure:
-### Step 3: Wikipeda Data
-Next, download the TSV:
-
-[TSV](https://huggingface.co/datasets/abdoelsayed/Open-ArabicaQA/resolve/main/wikipedia_split/wikiAr.tsv?download=true)
-
-Once downloaded, move the wikiAr.tsv to `wiki` within your project structure:
-### Step 4: Running Inference
-With the AraDPR model and index in place, you can run inference to answer questions. Edit the `inference.py` script to include your questions or use the example provided in the script.
-
-To run the inference, execute:
-```
-python inference.py
-
-```
-### Step 5: Review Results
-The results of your inference will be saved in `result.json`. Open this file to review the answers provided by the AraDPR model to your questions.
