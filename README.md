@@ -184,3 +184,18 @@ id	text	title
 ## Trainin AraDPR
 
 Will be avaiable soon
+
+## Citation
+
+If you find these codes or data useful, please consider citing our paper as:
+
+```
+@misc{abdallah2024arabicaqa,
+      title={ArabicaQA: A Comprehensive Dataset for Arabic Question Answering}, 
+      author={Abdelrahman Abdallah and Mahmoud Kasem and Mahmoud Abdalla and Mohamed Mahmoud and Mohamed Elkasaby and Yasser Elbendary and Adam Jatowt},
+      year={2024},
+      eprint={2403.17848},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
