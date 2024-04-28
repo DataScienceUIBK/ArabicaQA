@@ -1,7 +1,12 @@
 # [ArabicaQA: Comprehensive Dataset for Arabic Question Answering](https://arxiv.org/abs/2403.17848)
 
 ArabicaQA is a robust dataset designed to support and advance the development of Arabic Question Answering (QA) systems. This dataset encompasses a wide range of question types, including both Machine Reading Comprehension (MRC) and Open-Domain questions, catering to various aspects of QA research and application. The dataset is structured to facilitate training, validation, and testing of Arabic QA models.
-
+## Requirements
+```bash
+pip install torch==1.5.1
+pip install faiss-cpu==1.7.3
+pip install transformers==3.0.0
+```
 ## Using AraDPR
 To use our AraDPR for question answering, follow the steps below:
 ### Step 1: Clone AraDPR Repository
