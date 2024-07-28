@@ -198,12 +198,21 @@ Will be avaiable soon
 If you find these codes or data useful, please consider citing our paper as:
 
 ```
-@misc{abdallah2024arabicaqa,
-      title={ArabicaQA: A Comprehensive Dataset for Arabic Question Answering}, 
-      author={Abdelrahman Abdallah and Mahmoud Kasem and Mahmoud Abdalla and Mohamed Mahmoud and Mohamed Elkasaby and Yasser Elbendary and Adam Jatowt},
-      year={2024},
-      eprint={2403.17848},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{10.1145/3626772.3657889,
+author = {Abdallah, Abdelrahman and Kasem, Mahmoud and Abdalla, Mahmoud and Mahmoud, Mohamed and Elkasaby, Mohamed and Elbendary, Yasser and Jatowt, Adam},
+title = {ArabicaQA: A Comprehensive Dataset for Arabic Question Answering},
+year = {2024},
+isbn = {9798400704314},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3626772.3657889},
+doi = {10.1145/3626772.3657889},
+abstract = {In this paper, we address the significant gap in Arabic natural language processing (NLP) resources by introducing ArabicaQA, the first large-scale dataset for machine reading comprehension and open-domain question answering in Arabic. This comprehensive dataset, consisting of 89,095 answerable and 3,701 unanswerable questions created by crowdworkers to look similar to answerable ones, along with additional labels of open-domain questions marks a crucial advancement in Arabic NLP resources. We also present AraDPR, the first dense passage retrieval model trained on the Arabic Wikipedia corpus, specifically designed to tackle the unique challenges of Arabic text retrieval. Furthermore, our study includes extensive benchmarking of large language models (LLMs) for Arabic question answering, critically evaluating their performance in the Arabic language context. In conclusion, ArabicaQA, AraDPR, and the benchmarking of LLMs in Arabic question answering offer significant advancements in the field of Arabic NLP. The dataset and code are publicly accessible for further research https://github.com/DataScienceUIBK/ArabicaQA.},
+booktitle = {Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+pages = {2049–2059},
+numpages = {11},
+keywords = {arabic question answering, information retrieval, llm, question generation},
+location = {Washington DC, USA},
+series = {SIGIR '24}
 }
 ```
